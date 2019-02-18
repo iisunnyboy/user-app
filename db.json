@@ -1,0 +1,83 @@
+{
+  "users": [
+    {
+      "name": "Herry",
+      "phone": "123",
+      "email": "herry@163.com",
+      "id": 1,
+      "age": 30,
+      "companyId": 1
+    },
+    {
+      "name": "Bucky",
+      "phone": "1234",
+      "email": "bucky@163.com",
+      "id": 2,
+      "age": 32,
+      "companyId": 2
+    },
+    {
+      "name": "Emily",
+      "phone": "12345",
+      "email": "emily@163.com",
+      "id": 3,
+      "age": 33,
+      "companyId": 3
+    },
+    {
+      "name": "Elyse",
+      "phone": "123456",
+      "email": "elyse@163.com",
+      "id": 4,
+      "age": 34,
+      "companyId": 3
+    },
+    {
+      "name": "SXG",
+      "phone": "1234567",
+      "email": "song@163.com",
+      "id": 5,
+      "age": 36,
+      "companyId": 3
+    }
+  ],
+  "companies": [
+    {
+      "id": 1,
+      "name": "Apple",
+      "description": "Apple is a goode company!"
+    },
+    {
+      "id": 2,
+      "name": "Google",
+      "description": "Google is a goode company!"
+    },
+    {
+      "id": 3,
+      "name": "Microsoft",
+      "description": "Microsoft is a goode company!"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "some comment2",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
